@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Perde Acha</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular-cookies.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular-messages.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular-animate.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/1887ca57a2.js"></script>
+    <link rel="stylesheet" type="text/css" href="content/style.css">
+    <script src="./common/app.js"></script>
+    <script src="./user/app.js"></script>
+    <script src="./item/app.js"></script>
+    <script src="./app.js"></script>
+    <!--common-->
+    <script src="./common/controllers/master.js"></script>
+    <script src="./common/controllers/home.js"></script>
+    <!--user-->
+    <script src="./user/controllers/register.js"></script>
+    <script src="./user/controllers/login.js"></script>
+    <script src="./user/services/repository.js"></script>
+    <!--item-->
+    <script src="./item/controllers/search.js"></script>
+    <script src="./item/controllers/register.js"></script>
+    <script src="./item/services/repository.js"></script>
+    <script src="./item/controllers/details.js"></script>
+</head>
+
+<body ng-app="perdeAchaApp">
+    <div ng-controller="masterController">
+        <div>
+            <a ui-sref='home' href='#'>home</a>
+            <a ui-sref='userLogin' href='#'>login</a>
+            <a ui-sref='userRegister' href='#'>register</a>
+            <a ui-sref='itemRegister' href='#'>register</a>
+            <a ui-sref='itemSearch' href='#'>search</a>
+            <a ui-sref='itemDetails({id:1})' href='#'>search</a>
+        </div>
+        <ui-view></ui-view>
+    </div>
+</body>
+
+</html>

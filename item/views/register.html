@@ -1,0 +1,27 @@
+<div>
+
+<h2>Cadastro</h2>
+
+<div class="form-group">
+    <label>Título:</label>
+    <input type="text" class="form-control" id="input_title" ng-model="itemTitle" />
+</div>
+<div class="form-group">
+    <label>Descrição:</label>
+    <textarea class="form-control" id="input_description" ng-model="description"></textarea>
+</div>
+<div class="form-group">
+    <label>Local:</label>
+    <input type="text" class="form-control" id="input_localization" ng-model="localization" />
+</div>
+<div class="form-group">
+    <label>Data:</label>
+    <input type="number" class="form-control" id="input_date" ng-model="date" />
+</div>
+<div class="form-group">
+    <label>Recompensa:</label>
+    <input type="number" class="form-control" id="input_reward" ng-model="reward" />
+</div>
+<input class="btn btn-success" type="button" ng-click="save()" value="Enviar" />
+
+ </div>
