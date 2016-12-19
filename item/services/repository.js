@@ -21,5 +21,25 @@
 				data: obj
 			});
 		};
+
+		this.results = function() {
+			var itens = [];
+			itens.push({
+				Title: 'oi',
+				Localization: 'aqui',
+				Date: '12/12/2016'
+			});
+			itens.push({
+				Title: 'odsi',
+				Localization: 'aqudsi',
+				Date: '12/12/2016'
+			});
+			itens.push({
+				Title: 'odsi',
+				Localization: 'aqdsdsui',
+				Date: '12/12/2016'
+			});
+			return $q.resolve(itens);
+		}
 	});	
 })();

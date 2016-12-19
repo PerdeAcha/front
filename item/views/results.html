@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-custom">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -9,25 +8,16 @@
         </div>
     </div>
 </nav>
-
 <div>
+    <div class="form-group detailsTitle">
+        <span>Resultados</span>
+    </div>
+    <div class="publicity">
+    </div>
 
-
-<div class="form-group detailsTitle">
-    <span>{{item.Title}}</span>
-</div>
-
-<div class="imageSpace">
-	
-</div>
-<div class="form-group details">
-    <span>{{item.Description}}</span>
-</div>
-<div class="form-group details">
-    <span>Data: {{item.Date}}</span>
-</div>
-<div class="form-group details">
-    <span>Recompensa R$: {{item.Reward}}</span>
-</div>
-	
+    <div class="result" ng-repeat="item in itens">
+        <label>{{item.Title}}</label>
+        <label>{{item.Localization}}</label>
+        <label>{{item.Date}}</label>
+    </div>
 </div>

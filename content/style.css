@@ -3,6 +3,61 @@ body {
 	height: 100%;
 }
 
+
+#loginImage {
+	max-width: 80%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+
+#navImage {
+	max-width: 40%;
+	margin-left: 23%;
+	margin-bottom: 2%;
+}
+
+#menuButton {
+	color: white;
+	font-size: 4.5em;
+	margin-left: 2%;
+}
+
+#backButton {
+ color: white;
+  font-size: 4.5em;
+  margin-left: 2%;
+  float: right; 
+}
+
+#searchContainer {
+	display: block;
+	margin-top: 5%;
+}
+
+#searchContainer input {
+	float: left;
+	margin-left: 7%;
+  min-height: 2em;
+  margin-top: 0%;
+}
+
+#searchContainer span {
+	font-size: 3.5em;
+	color: #FF6000;
+	margin-left: 2%;
+	margin-top: 60%;
+}
+
+#registerLink {
+  margin-top: 5%;
+  margin-right: 10%;
+  float: right;
+  color: #FF6000;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+
 .login {
 	background-color: #003B99;
 	height: 100%;
@@ -22,15 +77,146 @@ body {
 .myInput {
 	width: 80%;
 	margin: auto;
-	font-size: 50px;
-	min-height: 90px;
+  margin-top: 5%;
+  font-size: 2.5em;
 }
 
- input[type='button'] {
+.myInput input {
+  min-height: 5em;
+}
+
+.bigInput {
+  font-size: 3.6em;
+  min-height: 2em;
+}
+
+.publicity {
+	margin-top: 10%;
+	margin-left: 10%;
+	background-color: gray;
+	outline: black;
+	border: 1px solid black;
+	width: 80%;
+	height: 100%;
+	padding-top: 20%;
+}
+
+.imageSpace {
+  margin-top: 10%;
+  margin-left: 10%;
+  background-color: gray;
+  outline: black;
+  border: 1px solid black;
+  width: 80%;
+  height: 200%;
+  padding-top: 20%;
+  margin-bottom: 10%;
+}
+
+.details {
+  padding-left: 10%;
+  color: #FF6000;
+  font-size: 2.2em;
+  font-weight: bold;
+  display: block;
+  border-bottom: 1px solid gray;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+
+
+.detailsTitle {
+  color: #FF6000;
+  margin-left: 10%;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.menuList {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 4.2em;
+  color: #FF6000;
+}
+
+.menuList i {
+  font-size: 2.3em;
+  margin-right: 5%;
+}
+
+.labelMenu {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 10%;
+}
+
+
+.result{
+  background-color: #f2f2f2;
+  margin-top: 1%;
+}
+
+.result label {
+  text-align: left;
+  font-size: 3em;
+  display: block;
+  margin-left: 60%;
+}
+
+.circleContainer {
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.circle {
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+width: 100%;
+position: relative;
+background-color: #FF6000;
+}
+
+.circle-solid{
+background-color: whitesmoke;
+}
+
+.circle:before {
+content: "";
+display: block;
+padding-top: 100%;
+}
+
+.circle-inner {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+}
+
+.score-text {
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+height: 1em;
+line-height: 1em;
+font-size: 7em;
+color: white;
+}
+
+input[type='button'] {
  	margin-top: 5%;
  	width: 80%;
 	min-height: 10%;
-	font-size: 60px;
+	font-size: 4.5em;
  }
 
 
@@ -38,27 +224,13 @@ label {
 	color: #FF6000;
 }
 
-
-#loginImage {
-	max-width: 80%;
-	margin-left: 10%;
-	margin-bottom: 5%;
+h2 {
+ color: #FF6000;
+ text-align: center;
+ font-size: 4em; 
+ margin-top: 10%;
+ font-weight: bold;
 }
-
-#navImage {
-	max-width: 40%;
-	margin-left: 23%;
-	margin-bottom: 2%;
-}
-
-
-#menuButton {
-	color: white;
-	font-size: 60px;
-	margin-left: 2%;
-}
-
-
 
 
 /*NavBar */

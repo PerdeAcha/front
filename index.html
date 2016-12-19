@@ -33,6 +33,8 @@
     <script src="./item/controllers/register.js"></script>
     <script src="./item/services/repository.js"></script>
     <script src="./item/controllers/details.js"></script>
+    <script src="./item/controllers/results.js"></script>
+    
 </head>
 
 <body ng-app="perdeAchaApp">
@@ -43,7 +45,10 @@
             <a ui-sref='userRegister' href='#'>register</a>
             <a ui-sref='itemRegister' href='#'>register</a>
             <a ui-sref='itemSearch' href='#'>search</a>
-            <a ui-sref='itemDetails({id:1})' href='#'>search</a>
+            <a ui-sref='itemDetails({id:1})' href='#'>detalhes</a>
+            <a ui-sref='menu' href='#'>menu</a>
+            <a ui-sref='results' href='#'>resultados</a>
+            
         </div>
         <ui-view></ui-view>
     </div>

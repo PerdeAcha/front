@@ -4,11 +4,13 @@
     	<img src="content/images/logoperdeacha.png" id="loginImage">
 
         <div class="form-group">
-            <input type="text" class="form-control myInput" placeholder="Email" id="input_email" ng-model="email" />
+            <input type="text" class="form-control myInput bigInput" placeholder="Email" id="input_email" ng-model="email" />
         </div>
         <div class="form-group">
-            <input type="password" class="form-control myInput" placeholder="Senha" id="input_password" ng-model="password" />
+            <input type="password" class="form-control myInput bigInput" placeholder="Senha" id="input_password" ng-model="password" />
         </div>
         <input class="btn btn-success center-block" type="button" ng-click="login()" value="Login" />
+
+		<a id="registerLink" ui-sref='userRegister' href='#'>Cadastre-se</a>
     </div>
 </div>

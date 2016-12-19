@@ -1,27 +1,39 @@
+<nav class="navbar navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <span id="menuButton" ui-sref='menu' href='#'>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            </span>
+            <img src="content/images/logoperdeachabranca.png" id="navImage" ui-sref='home' href='#'>
+        </div>
+    </div>
+</nav>
+
+
 <div>
 
-<h2>Cadastro</h2>
+<h2>Cadastrar Item</h2>
 
-<div class="form-group">
+<div class="form-group myInput">
     <label>Título:</label>
     <input type="text" class="form-control" id="input_title" ng-model="itemTitle" />
 </div>
-<div class="form-group">
+<div class="form-group myInput">
     <label>Descrição:</label>
     <textarea class="form-control" id="input_description" ng-model="description"></textarea>
 </div>
-<div class="form-group">
+<div class="form-group myInput">
     <label>Local:</label>
     <input type="text" class="form-control" id="input_localization" ng-model="localization" />
 </div>
-<div class="form-group">
+<div class="form-group myInput">
     <label>Data:</label>
     <input type="number" class="form-control" id="input_date" ng-model="date" />
 </div>
-<div class="form-group">
+<div class="form-group myInput">
     <label>Recompensa:</label>
     <input type="number" class="form-control" id="input_reward" ng-model="reward" />
 </div>
-<input class="btn btn-success" type="button" ng-click="save()" value="Enviar" />
+<input class="btn btn-success center-block" type="button" ng-click="save()" value="Enviar" />
 
  </div>

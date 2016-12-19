@@ -1,18 +1,43 @@
-	
-	<nav class="navbar navbar-custom">
-		<div class="container-fluid">
-		    <div class="navbar-header">
-		    <span id="menuButton">
+<nav class="navbar navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <span id="menuButton" ui-sref='menu' href='#'>
 		    <i class="fa fa-bars" aria-hidden="true"></i>
 		    </span>
-
-		    <img src="content/images/logoperdeachabranca.png" id="navImage">
-		      
-		    </div>
-	    </div>
-	</nav>
-
-	<div class="form-group">
-            <input type="text" class="form-control myInput" placeholder="Pesquisar" id="input_search" ng-model="search"/>
+            <img src="content/images/logoperdeachabranca.png" id="navImage" ui-sref='home' href='#'>
         </div>
+    </div>
+</nav>
+<div class="form-group" id="searchContainer">
+    <input type="text" class="form-control myInput" placeholder="Pesquisar" id="input_search" ng-model="search" />
+    <span>
+		    <i class="fa fa-search" aria-hidden="true"></i>
+		    </span>
+</div>
 
+<div class="publicity">
+
+</div>
+
+<div class="circleContainer" ui-sref='itemSearch' href='#'>
+	<div class="circle circle-border">
+	     <div class="circle-inner">
+	         <div class="score-text">
+	            <i class="fa fa-search" aria-hidden="true"></i>
+	          </div>
+	     </div>
+	</div>
+	<label class="labelMenu">Pesquisa Avançada</label>
+</div>
+
+
+<div class="circleContainer" ui-sref='itemRegister' href='#'>
+	<div class="circle circle-border">
+	     <div class="circle-inner">
+	         <div class="score-text">
+	            <i class="fa fa-edit" aria-hidden="true"></i>
+	          </div>
+	     </div>
+	</div>
+	<label class="labelMenu">Cadastrar Item</label>
+</div>

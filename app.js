@@ -42,8 +42,20 @@
 			url: '/item/detalhes/:id',
 			templateUrl: 'item/views/details.html',
 			controller: 'itemDetailsController'
+		};
 
-		}
+		var menu = {
+			name: 'menu',
+			url: '/menu',
+			templateUrl: 'common/views/menu.html'
+		};
+
+		var results = {
+			name: 'results',
+			url: '/resultados',
+			templateUrl: 'item/views/results.html',
+			controller: 'resultsController'
+		};
 
 		$stateProvider.state(login);
 		$stateProvider.state(userRegister);
@@ -51,6 +63,8 @@
 		$stateProvider.state(home);
 		$stateProvider.state(itemRegister);
 		$stateProvider.state(itemDetails);
+		$stateProvider.state(menu);
+		$stateProvider.state(results);
 
 		$urlRouterProvider.otherwise('/');
 	});
