@@ -1,5 +1,5 @@
 (function () {
-	var app = angular.module('perdeAchaApp', ['perdeAchaApp.user', 'perdeAchaApp.item' , 'perdeAchaApp.common', 'ui.router']);
+	var app = angular.module('perdeAchaApp', ['perdeAchaApp.user', 'perdeAchaApp.item' , 'perdeAchaApp.common', 'ui.router', 'ngCookies', 'ui.mask']);
 
 	app.config(function ($stateProvider, $urlRouterProvider, $compileProvider) {
 		$compileProvider.debugInfoEnabled(false);
@@ -21,13 +21,15 @@
 		var search = {
 			name: 'itemSearch',
 			url: '/busca',
-		    templateUrl: 'item/views/search.html'
+		    templateUrl: 'item/views/search.html',
+		    controller: 'searchController'
 		};
 
 		var home = {
 			name: 'home',
 			url: '/',
-		    templateUrl: 'common/views/home.html'
+		    templateUrl: 'common/views/home.html',
+		    controller: 'homeController'
 		};
 
 		var itemRegister = {
@@ -41,7 +43,8 @@
 			name: 'itemDetails',
 			url: '/item/detalhes/:id',
 			templateUrl: 'item/views/details.html',
-			controller: 'itemDetailsController'
+			controller: 'itemDetailsController',
+			params: {id : null}
 		};
 
 		var menu = {
@@ -54,7 +57,8 @@
 			name: 'results',
 			url: '/resultados',
 			templateUrl: 'item/views/results.html',
-			controller: 'resultsController'
+			controller: 'resultsController',
+			params: {search: null, flagAdvancedSearch: false}
 		};
 
 		$stateProvider.state(login);
@@ -68,4 +72,5 @@
 
 		$urlRouterProvider.otherwise('/');
 	});
+
 })();

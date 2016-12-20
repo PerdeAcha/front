@@ -1,5 +1,5 @@
 (function () {
-	angular.module('perdeAchaApp.user').controller('loginController', function ($scope, userRepository, $state) {
+	angular.module('perdeAchaApp.user').controller('loginController', function ($scope, userRepository, $state, $cookies) {
 		$scope.login = function () {
 
 			if (!$scope.email) {
@@ -14,8 +14,9 @@
         	userRepository.login({
         		Email: $scope.email,
         		Password: $scope.password
-        	}).then(function(response) {
-        		if(response){
+        	}).then(function(obj) {
+        		if(obj){
+        			$cookies.put('token', obj.access_token);
         			$state.go('home');
         		}
         	})

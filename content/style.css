@@ -82,7 +82,13 @@ body {
 }
 
 .myInput input {
-  min-height: 5em;
+  font-size: 0.9em;
+  height: 3em;
+}
+
+.myInput textarea {
+  font-size: 0.9em;
+  height: 5em;
 }
 
 .bigInput {
@@ -162,6 +168,20 @@ body {
   font-size: 3em;
   display: block;
   margin-left: 60%;
+}
+
+.buttonImage {
+  border: #f2f2f2 1px solid;
+  border-radius: 5px;
+}
+
+.imagemDiv {
+  margin-left: 10%;
+  margin-top: 5%;
+  color: #FF6000;
+  font-weight: bold;
+  font-size: 2em;
+  border: #f2f2f2 1px solid;
 }
 
 .circleContainer {

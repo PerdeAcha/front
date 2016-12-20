@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"res",
+				"results	(repository.js)"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"hr",
+				"href	(index.html)"
+			],
+			[
+				"magi",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-top-color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"marig",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"use",
+				"userRepository"
+			],
+			[
+				"itemre",
+				"itemRepository	(search.js)"
+			],
+			[
+				"item",
+				"itemRegister	(index.html)"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"PADD",
+				"padding-top"
+			],
+			[
+				"WID",
+				"width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tex",
+				"text	(index.html)"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"Local",
+				"Localization	(register.js)"
+			],
+			[
+				"itemr",
+				"itemRepository	(repository.js)"
+			],
+			[
+				"de",
+				"Details.html"
+			],
+			[
+				"perde",
+				"perdeAchaApp.user"
+			],
+			[
+				"user",
+				"userRepository	(repository.js)"
+			],
+			[
+				"reg",
+				"registerController"
+			],
+			[
+				"da",
+				"date	(register.html)"
+			],
+			[
+				"re",
+				"register	(repository.js)"
+			],
+			[
+				"controll",
+				"controller	(master.js)"
+			],
+			[
+				"ti",
+				"title	<title>"
+			],
+			[
+				"per",
+				"perdeAchaApp.common	(app.js)"
+			],
+			[
+				"perce",
+				"perdeAchaApp.controllers	(app.js)"
+			],
+			[
+				"bod",
+				"body_data"
+			],
+			[
+				"ticket",
+				"ticketcheckRequestMapper	(obj-mapper.util.js)"
+			],
+			[
+				"obj",
+				"obj-mapper.util.js"
+			],
+			[
+				"cookie",
+				"cookieInfo"
+			],
+			[
+				"reques",
+				"requestCaptcha"
+			],
+			[
+				"cooki",
+				"cookieInfo"
+			],
+			[
+				"hea",
+				"headerData"
+			],
+			[
+				"body",
+				"bodyData"
+			],
+			[
+				"resul",
+				"result_data"
+			],
+			[
+				"Object",
+				"in(Object)	Object"
+			],
+			[
+				"sele",
+				"selector"
+			],
+			[
+				"cons",
+				"constructor	(ticketSystem.service.js)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 105.0,
+		"last_filter": "format",
+		"selected_items":
+		[
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/common/controllers/menu.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/index.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/app.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/README.md",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/user/services/repository.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/controllers/search.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/controllers/details.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/services/repository.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/Find Results",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/content/style.css",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/home/views/home.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/Content/Styles",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/user/controllers/register.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/common/controllers/home.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/common/controllers/master.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/user/views/register.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/controllers/register.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/views/register.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/user/app.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/common/app.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/user/views/login.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/controllers/register",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/views/search.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/user/controllers/login.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/controllers/home.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/item/app.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/controllers/search.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/controllers/register.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/views/login.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/views/register.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/controllers/masterController.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/controllers/homeController.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/views/home.html",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/services/services.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/controllers/controllers.js",
+		"/Volumes/gui_hd/developer/lili/perdeacha/front/(function () {",
+		"/Users/guilherme/Desktop/download",
+		"/Volumes/gui_hd/developer/recursos_web/recursosweb_api/contato.php",
+		"/Users/guilherme/Desktop/agradeicmento_guilherme",
+		"/Volumes/gui_hd/recursos_web_ftp/classandamentoredz.inc.php",
+		"/Volumes/gui_hd/recursos_web_ftp/consulta.php",
+		"/Volumes/gui_hd/recursos_web_ftp/classprocessoredz.inc.php",
+		"/Users/guilherme/developer/pd/premium-content-frontend/env.config.js",
+		"/Users/guilherme/developer/pd/premium-content-frontend/Gruntfile.js",
+		"/Users/guilherme/developer/mocks/nada_consta.html",
+		"/Users/guilherme/developer/fabio/poc/src/controllers/ticket.controller.js",
+		"/Users/guilherme/developer/fabio/poc/src/middlewares/set-headers.middleware.js",
+		"/Users/guilherme/developer/fabio/poc/src/services/ticketSystem.service.js",
+		"/Users/guilherme/developer/fabio/poc/src/utils/obj-mapper.util.js",
+		"/Users/guilherme/developer/fabio/poc/gruntfile.js",
+		"/Users/guilherme/developer/fabio/poc/config/express.js",
+		"/Users/guilherme/developer/fabio/poc/package.json",
+		"/Users/guilherme/developer/fabio/poc/src/utils/header.util.js",
+		"/Users/guilherme/developer/fabio/poc/src/routes/ticket.route.js",
+		"/Users/guilherme/developer/fabio/poc/src/utils/header.js",
+		"/Users/guilherme/developer/fabio/poc/dist/services/ticketSystem.service.js",
+		"/Users/guilherme/developer/fabio/poc/src/middlewares/main.middleware.js",
+		"/Users/guilherme/developer/fabio/poc/src/controllers/meta.controller.js",
+		"/Users/guilherme/developer/fabio/poc/src/routes/meta.route.js",
+		"/Users/guilherme/developer/fabio/poc/src/middlewares/get-app-token.middleware.js",
+		"/Users/guilherme/developer/fabio/poc/middlewares/check-vtex-instore-req.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 112.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$item",
+			"itemrep",
+			"bootstr",
+			"boot",
+			"id_alu",
+			"product",
+			"formata_datatela",
+			"navega",
+			"relatorio_etapa2",
+			"conteudo-consulta",
+			"envConfig",
+			"_postAction",
+			"service",
+			"cookie",
+			"postAction",
+			"ticketcheckRequestMapper",
+			"_retrievePage",
+			"parser",
+			"{\n",
+			"eslint",
+			"\",\n",
+			"morgan",
+			"');\n",
+			"nodemon",
+			"defaults",
+			"_getDataFromHeader",
+			"_retrievePage",
+			"getAppToken"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

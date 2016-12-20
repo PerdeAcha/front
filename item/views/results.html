@@ -15,9 +15,11 @@
     <div class="publicity">
     </div>
 
-    <div class="result" ng-repeat="item in itens">
+    <div ng-repeat="item in itens">
+    <div class="result" ng-click="goToDetails(item.Id)">
         <label>{{item.Title}}</label>
-        <label>{{item.Localization}}</label>
+        <label>{{item.Neighborhood}}</label>
         <label>{{item.Date}}</label>
+    </div>
     </div>
 </div>

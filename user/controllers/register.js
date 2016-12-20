@@ -1,39 +1,38 @@
-(function () {
-	angular.module('perdeAchaApp.user').controller('registerController', function ($scope, userRepository) {
+(function() {
+    angular.module('perdeAchaApp.user').controller('registerController', function($scope, userRepository, $state, $cookies) {
 
-		$scope.save = function() {
-			if (!$scope.name) {
-	            alert("Nome inválido.");
-	            return;
-        	}
-        	if (!$scope.email) {
-	            alert("Email inválido.");
-	            return;
-        	}
-        	if (!$scope.password) {
-	            alert("Senha inválida.");
-	            return;
-        	}
-        	if (!$scope.state) {
-	            alert("Estado inválido.");
-	            return;
-        	}
-        	if (!$scope.city) {
-	            alert("Cidade inválida.");
-	            return;
-        	}
+        $scope.save = function() {
+            // if (!$scope.name) {
+            //     alert("Nome inválido.");
+            //     return;
+            // }
+            if (!$scope.email) {
+                alert("Email inválido.");
+                return;
+            }
+            if (!$scope.password) {
+                alert("Senha inválida.");
+                return;
+            }
 
-        	userRepository.register({
-        		Name: $scope.name,
-        		Email: $scope.email,
-        		Password: $scope.password,
-        		State: $scope.state,
-        		City: $scope.city
-        	}).then( function (msg) {
-        		console.log(msg);
-        	});
-		}
+            userRepository.register({
+                // Name: $scope.name,
+                Email: $scope.email,
+                Password: $scope.password
+            }).then(function(msg) {
+                userRepository.login({
+                    Email: $scope.email,
+                    Password: $scope.password
+                }).then(function(obj) {
+                    if (obj) {
+                        $cookies.put('token', obj.access_token);
+                        $state.go('home');
+                    }
+                });
 
-		
-	});	
+            });
+        }
+
+
+    });
 })();
