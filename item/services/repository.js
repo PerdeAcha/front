@@ -22,7 +22,7 @@
 			// 	Reward: 3000
 			// });
 			return $http.post({
-				url: 'http://localhost:5000//',
+				url: 'http://localhost:5000/api/item?id=' + id,
 				data: id
 			});
 		};
@@ -53,9 +53,9 @@
 			//sem mock
 			//advancedSearch
 			if(flagAdvancedSearch) {
-				return $http.post({
-				url: 'http://localhost:5000//',
-				data: search
+				return $http.get({
+				url: 'http://localhost:5000/api/item?title=', + search.Search
+				data: search.Search
 			});
 			}
 			//homeSearch
