@@ -9,7 +9,7 @@
 			return $http.post({
 				url: 'http://localhost:5000/api/item',
 				data: obj,
-				headers: {'Authorization' : token}
+				headers: {'Authorization' : "Bearer " + token}
 			});
 		};
 
@@ -60,8 +60,8 @@
 			}
 			//homeSearch
 			else {
-				return $http.post({
-				url: 'http://localhost:5000//',
+				return $http.get({
+				url: 'http://localhost:5000/api/item?title=' + search,
 				data: search
 			});	
 			}

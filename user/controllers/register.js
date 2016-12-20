@@ -28,9 +28,9 @@
                         $cookies.put('token', obj.access_token);
                         $state.go('home');
                     }
-                });
+                }, function () {alert("Erro.")});
 
-            });
+            }, function () {alert("Erro.")});
         }
 
 
